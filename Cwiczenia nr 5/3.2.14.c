@@ -16,6 +16,7 @@ int fun2(int b)
 
 typedef int(*wsk_fun)(int);
 
+// bool wykonaj(int(*wsk_fun)(int), int(*wsk_fun)(int), unsigned int n)
 bool wykonaj(wsk_fun pierwsza, wsk_fun druga, unsigned int n)
 {
     for (unsigned int i = 0; i <= n; i++)
