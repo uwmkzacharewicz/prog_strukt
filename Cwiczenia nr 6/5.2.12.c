@@ -60,7 +60,7 @@ void wytnij_zn(char *zrodlo, const char *wzor)
     }
 
     // na koncu lancucha umieszczamy \0
-    zrodlo[aktual++] = '\0';
+    zrodlo[aktual] = '\0';
 }
 
 int str_len(const char *napis)
